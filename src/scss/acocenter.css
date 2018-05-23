@@ -1,0 +1,165 @@
+.pageAccountingcenter nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  width: 90%;
+  flex: 1;
+  z-index: 1000;
+}
+
+.pageAccountingcenter nav .lnav {
+  font-size: 15px;
+  width: 500px;
+  text-align: left;
+}
+
+.pageAccountingcenter .pagemain {
+  margin: 0px auto;
+}
+
+.pageAccountingcenter .pagemain .text-l .panel .panel-heading {
+  border-bottom: solid 1px transparent;
+  padding: 8px 15px;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: -1px;
+  text-align: left;
+}
+
+.pageAccountingcenter .pagemain .text-l .panel .panel-body {
+  width: 100%;
+  padding: 40px;
+}
+
+.pageAccountingcenter .pagemain .text-l .panel .panel-body ul {
+  display: flex;
+  width: 100%;
+}
+
+.pageAccountingcenter .pagemain .text-l .panel .panel-body ul .money {
+  width: 31%;
+}
+
+.pageAccountingcenter .pagemain .text-l .panel .panel-body ul li {
+  display: flex;
+  flex-direction: column;
+  width: 23%;
+  padding-top: 6px;
+  border-right: #f3f3f3 1px solid;
+  box-sizing: border-box;
+  height: 54px;
+  justify-content: center;
+  align-items: center;
+}
+
+.pageAccountingcenter .pagemain .text-l .panel .panel-body ul li .detail {
+  color: #4bc5c3;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.pageAccountingcenter .pagemain .text-l .panel .panel-body ul li .balance {
+  font-size: 14px;
+  text-align: left;
+}
+
+.pageAccountingcenter .pagemain .text-l .panel .panel-body ul li .balance-num {
+  font-size: 30px;
+  color: #e9443e;
+  font-weight: bold;
+  line-height: 50px;
+  display: block;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pageAccountingcenter .pagemain .text-l .panel .panel-body ul li .balance-num .blue {
+  float: left;
+  margin-right: 20px;
+  padding: 0;
+  background: none;
+  width: 120px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  color: #fff;
+  background: #4bc5c3;
+  border: none;
+  border-radius: 3px;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.pageAccountingcenter .pagemain .text-l .panel .panel-body ul li .settlement {
+  padding-left: 55px;
+  height: 46px;
+  display: inline-block;
+  text-align: left;
+  color: #999;
+  font-size: 14px;
+}
+
+.pageAccountingcenter .pagemain .text-l .panel .panel-body ul li .settlement b {
+  font-size: 16px;
+  font-weight: normal;
+  color: #5f6d7d;
+}
+
+.pageAccountingcenter .pagemain .text-l .panel .panel-body ul .bg {
+  background: url("../assets/history.png") no-repeat 120px center;
+  background-size: 47px 46px;
+}
+
+.pageAccountingcenter .pagemain .text-l .panel .panel-body ul .bg2 {
+  background: url("../assets/current.png") no-repeat 120px center;
+  background-size: 47px 46px;
+}
+
+.pageAccountingcenter .pagemain .text-l .panel .panel-body ul .bg3 {
+  background: url("../assets/yesterday.png") no-repeat 120px center;
+  background-size: 47px 46px;
+}
+
+.pageAccountingcenter .pagemain .text-l .panel .panel-body ul .money label {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.pageAccountingcenter .pagemain .text-l .panel .cal {
+  display: none;
+  margin-left: 0;
+  margin-top: 3px;
+}
+
+.pageAccountingcenter .pagemain .text-l .panel .cal2 {
+  display: none;
+  margin-left: 0;
+  margin-top: 3px;
+}
+
+.pageAccountingcenter .pagemain .add {
+  height: 32px;
+  line-height: 32px;
+  width: 100%;
+  text-align: right;
+  margin: 20px auto;
+  background: #f5fafe;
+  color: white;
+  padding: 0 20px;
+}
+
+.pageAccountingcenter .pagemain .tablehead {
+  width: 100%;
+  display: flex;
+  height: 30px;
+  line-height: 30px;
+  justify-content: space-between;
+}
+
+.pageAccountingcenter .pagemain .layui-table th, .pageAccountingcenter .pagemain .layui-table td {
+  text-align: center;
+}
+/*# sourceMappingURL=acocenter.css.map */

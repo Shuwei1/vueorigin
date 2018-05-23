@@ -1,0 +1,22 @@
+.pagePwdchange nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  width: 90%;
+  z-index: 2000;
+}
+
+.pagePwdchange nav .lnav {
+  font-size: 15px;
+  width: 500px;
+  text-align: left;
+}
+
+.pagePwdchange .resetpass form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/*# sourceMappingURL=pwd.css.map */

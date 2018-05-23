@@ -1,0 +1,93 @@
+.pageapplygame nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  width: 90%;
+  flex: 1;
+  z-index: 1000;
+}
+
+.pageapplygame nav .lnav {
+  font-size: 15px;
+  width: 500px;
+  text-align: left;
+}
+
+.pageapplygame .gamebtn .text {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.pageapplygame .panel-default .cal {
+  display: none;
+  margin-left: 0;
+  margin-top: 3px;
+}
+
+.pageapplygame .panel-default .cal2 {
+  display: none;
+  margin-left: 0;
+  margin-top: 3px;
+}
+
+.pageapplygame .panel-default .panel-body form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.pageapplygame .panel-default .panel-body form .sel {
+  width: 200px;
+}
+
+.pageapplygame .panel-default .panel-body form .mr {
+  margin-top: 20px;
+}
+
+.pageapplygame .panel-default .panel-body form .export {
+  display: inline-block;
+  box-sizing: border-box;
+  cursor: pointer;
+  position: relative;
+  padding-left: 30px;
+  padding-right: 20px;
+}
+
+.pageapplygame .addbox {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.pageapplygame .addbox .add {
+  height: 32px;
+  line-height: 32px;
+  width: 100%;
+  text-align: right;
+  margin: 20px auto;
+  background: #f5fafe;
+  color: white;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.pageapplygame .addbox .tablehead {
+  width: 100%;
+  display: flex;
+  height: 30px;
+  line-height: 30px;
+  justify-content: space-between;
+}
+
+.pageapplygame .addbox .layui-table th,
+.pageapplygame .addbox .layui-table td {
+  text-align: center;
+}
+
+.pageapplygame .addbox .pag {
+  margin-top: 30px;
+}
+/*# sourceMappingURL=applygame.css.map */

@@ -1,0 +1,55 @@
+.pageWithdrawarecord {
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 90%;
+    flex: 1;
+    z-index: 1000;
+    .lnav {
+      font-size: 15px;
+      width: 500px;
+      text-align: left;
+    }
+  }
+  .panel-default {
+    .cal {
+      display: none;
+      margin-left: 0;
+      margin-top: 3px;
+    }
+    .cal2 {
+      display: none;
+      margin-left: 0;
+      margin-top: 3px;
+    }
+  }
+  .addbox {
+    padding-left: 10px;
+    padding-right: 10px;
+    .add {
+      height: 32px;
+      line-height: 32px;
+      width: 100%;
+      text-align: right;
+      margin: 20px auto;
+      background: #f5fafe;
+      color: white;
+      padding: 0 20px;
+    }
+    .tablehead {
+      width: 100%;
+      display: flex;
+      height: 30px;
+      line-height: 30px;
+      justify-content: space-between;
+    }
+    .layui-table {
+      th,
+      td {
+        text-align: center;
+      }
+    }
+  }
+}

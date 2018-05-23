@@ -1,0 +1,204 @@
+@import url('./common.css');
+@media only screen and (min-device-width:1200px) {
+  #app {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    width: 100%;
+    .head {
+      width: 100%;
+      height: 46px;
+      font-size: 15px;
+      border: 1px solid #ddd;
+      color: white;
+      line-height: 46px;
+      text-align: center;
+      background: #333;
+      position: fixed;
+      z-index:9999;
+      top: 0;
+      header {
+        width: 100%;
+        margin: 0 auto;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 20px;
+
+        div{
+          color: white;
+           span{
+             color:white;
+             
+           }
+        }
+        .loginname{
+          display: flex;
+          // flex-direction: column;
+          position: relative;
+          .goback{
+            color: #fff;
+          }
+          .advice{
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            left: 50px;
+            top: 42px;
+            z-index: 2000;
+            a{
+              color: #222222;
+            }
+
+          }
+
+        }
+        .loginname:hover{
+          cursor: pointer;
+        }
+      }
+    }
+    .cfix {
+      width: 100%;
+      height: 46px;
+      /*px*/
+    }
+    .container {
+      width: 100%;
+      display: flex;
+      padding: 0 !important;
+      margin: 0 !important;
+      box-sizing: border-box;
+      aside {
+        width: 200px;
+        min-width: 200px;
+        position: fixed;
+        top: 46px;
+        left: 0;
+        background: #5a98de;
+        color: white;
+        height: 100%;
+        .el-collapse {
+          border: none!important;
+          .el-collapse-item {
+            div {
+              color: #fff;
+              background: none;
+              padding: 0;
+              margin: 0;
+              padding: 13px 0;
+              font-size: 13px/*px*/
+            }
+            div a {
+              color: #fff;
+              display: block;
+              width: 100%;
+              font-size: 13px/*px*/
+            }
+            div .add{
+              color: #dd514c;
+            }
+          }
+        }
+        .koko-index {
+          height: 48px;
+          /*px*/
+          line-height: 48px;
+          /*px*/
+          text-align: center;
+          a {
+            display: block;
+            width: 100%;
+            color: #fff;
+            font-size: 13px;
+            /*px*/
+          }
+        }
+      }
+      .main {
+        flex: 1;
+        -webkit-box-flex:1;
+        width: 0;
+        float: left;
+        margin-left: 200px;
+        height: auto;
+        min-height: 1200px;
+        .pageindex {
+          width: 100%;
+          height: 100%;
+          /*px*/
+          padding: 20px;
+          font-size: 14px;
+          /*px*/
+          .container {
+            padding: 0 !important;
+            margin: 0 !important;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            .platform {
+              width: 100%;
+              display: flex;
+              height: 157px;
+              /*px*/
+              margin-bottom: 30px;
+              .panel {
+                width: 23%;
+                margin-left: 2%;
+                margin-top: 20px;
+                height: 157px;
+                .panel-heading {
+                  border-color: #dd514c;
+                  background-color: #dd514c;
+                  display: flex;
+                  color: #fff;
+                  padding: 0 15px;
+                  height: 45px;
+                  /*px*/
+                  align-items: center;
+                  justify-content: space-between;
+                }
+                .panel-body {
+                  line-height: 30px;
+                  height: 30px;
+                  /*px*/
+                  margin: 10px 0;
+                }
+              }
+              .panel-primary {
+                .panel-heading {
+                  border-color: #5a98de;
+                  background-color: #5a98de;
+                  color: #fff;
+                }
+              }
+              .panel-warning {
+                .panel-heading {
+                  border-color: #f37b1d;
+                  background-color: #f37b1d;
+                  color: #fff;
+                }
+              }
+              .panel-success {
+                .panel-heading {
+                  border-color: #5eb95e;
+                  background-color: #5eb95e;
+                  color: #fff
+                }
+              }
+            }
+            .linechart {
+              margin-left: 2%;
+              margin-top: 20px;
+              .row {
+                margin-bottom: 30px;
+              }
+            }
+          }
+        }
+      }
+    }
+    
+  }
+}

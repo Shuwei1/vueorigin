@@ -1,0 +1,46 @@
+.take nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  width: 90%;
+  flex: 1;
+  z-index: 1000;
+}
+
+.take nav .lnav {
+  font-size: 15px;
+  width: 500px;
+  text-align: left;
+}
+
+.take article {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.take article .row {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 40px;
+  line-height: 40px;
+  display: flex;
+  font-size: 15px;
+}
+
+.take article .row label {
+  font-weight: 100;
+}
+
+.take article .row .modification-btn {
+  color: #ff006a;
+}
+
+.take article .row .announcement {
+  line-height: 22px;
+  font-size: 13px;
+  padding: 20px;
+}
+/*# sourceMappingURL=take.css.map */

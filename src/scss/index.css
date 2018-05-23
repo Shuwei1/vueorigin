@@ -1,0 +1,191 @@
+@import url("./common.css");
+@media only screen and (min-device-width: 1200px) {
+  #app {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    width: 100%;
+  }
+  #app .head {
+    width: 100%;
+    height: 46px;
+    font-size: 15px;
+    border: 1px solid #ddd;
+    color: white;
+    line-height: 46px;
+    text-align: center;
+    background: #333;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+  }
+  #app .head header {
+    width: 100%;
+    margin: 0 auto;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+  #app .head header div {
+    color: white;
+  }
+  #app .head header div span {
+    color: white;
+  }
+  #app .head header .loginname {
+    display: flex;
+    position: relative;
+  }
+  #app .head header .loginname .goback {
+    color: #fff;
+  }
+  #app .head header .loginname .advice {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 50px;
+    top: 42px;
+    z-index: 2000;
+  }
+  #app .head header .loginname .advice a {
+    color: #222222;
+  }
+  #app .head header .loginname:hover {
+    cursor: pointer;
+  }
+  #app .cfix {
+    width: 100%;
+    height: 46px;
+    /*px*/
+  }
+  #app .container {
+    width: 100%;
+    display: flex;
+    padding: 0 !important;
+    margin: 0 !important;
+    box-sizing: border-box;
+  }
+  #app .container aside {
+    width: 200px;
+    min-width: 200px;
+    position: fixed;
+    top: 46px;
+    left: 0;
+    background: #5a98de;
+    color: white;
+    height: 100%;
+  }
+  #app .container aside .el-collapse {
+    border: none !important;
+  }
+  #app .container aside .el-collapse .el-collapse-item div {
+    color: #fff;
+    background: none;
+    padding: 0;
+    margin: 0;
+    padding: 13px 0;
+    font-size: 13px;
+  }
+  #app .container aside .el-collapse .el-collapse-item div a {
+    color: #fff;
+    display: block;
+    width: 100%;
+    font-size: 13px;
+  }
+  #app .container aside .el-collapse .el-collapse-item div .add {
+    color: #dd514c;
+  }
+  #app .container aside .koko-index {
+    height: 48px;
+    /*px*/
+    line-height: 48px;
+    /*px*/
+    text-align: center;
+  }
+  #app .container aside .koko-index a {
+    display: block;
+    width: 100%;
+    color: #fff;
+    font-size: 13px;
+    /*px*/
+  }
+  #app .container .main {
+    flex: 1;
+    -webkit-box-flex: 1;
+    width: 0;
+    float: left;
+    margin-left: 200px;
+    height: auto;
+    min-height: 1200px;
+  }
+  #app .container .main .pageindex {
+    width: 100%;
+    height: 100%;
+    /*px*/
+    padding: 20px;
+    font-size: 14px;
+    /*px*/
+  }
+  #app .container .main .pageindex .container {
+    padding: 0 !important;
+    margin: 0 !important;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+  }
+  #app .container .main .pageindex .container .platform {
+    width: 100%;
+    display: flex;
+    height: 157px;
+    /*px*/
+    margin-bottom: 30px;
+  }
+  #app .container .main .pageindex .container .platform .panel {
+    width: 23%;
+    margin-left: 2%;
+    margin-top: 20px;
+    height: 157px;
+  }
+  #app .container .main .pageindex .container .platform .panel .panel-heading {
+    border-color: #dd514c;
+    background-color: #dd514c;
+    display: flex;
+    color: #fff;
+    padding: 0 15px;
+    height: 45px;
+    /*px*/
+    align-items: center;
+    justify-content: space-between;
+  }
+  #app .container .main .pageindex .container .platform .panel .panel-body {
+    line-height: 30px;
+    height: 30px;
+    /*px*/
+    margin: 10px 0;
+  }
+  #app .container .main .pageindex .container .platform .panel-primary .panel-heading {
+    border-color: #5a98de;
+    background-color: #5a98de;
+    color: #fff;
+  }
+  #app .container .main .pageindex .container .platform .panel-warning .panel-heading {
+    border-color: #f37b1d;
+    background-color: #f37b1d;
+    color: #fff;
+  }
+  #app .container .main .pageindex .container .platform .panel-success .panel-heading {
+    border-color: #5eb95e;
+    background-color: #5eb95e;
+    color: #fff;
+  }
+  #app .container .main .pageindex .container .linechart {
+    margin-left: 2%;
+    margin-top: 20px;
+  }
+  #app .container .main .pageindex .container .linechart .row {
+    margin-bottom: 30px;
+  }
+}
+/*# sourceMappingURL=index.css.map */

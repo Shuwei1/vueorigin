@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #222;
+}
+#app{
+  position: relative;
+}
+
+body {
+  background: white;
+}
+
+a {
+  text-decoration: none;
+  color: #222;
+  font-size: 16px;
+}
+
+a:hover {
+    text-decoration: none;
+  }
+  
+
+.login {
+  width: 100%;
+  height: auto;
+  background: white;
+  color: #222;
+  position: absolute;
+  top: 0;
+  left: 0;
+  .loginheader {
+    width: 1200px;
+    min-width: 1200px;
+    height: 96px; // background: white;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+    p {
+      display: flex;
+      margin: 0;
+      padding: 0;
+      padding-top: 50px;
+      a {
+        display: block;
+        width: 200px;
+        height: 96px;
+        text-align: center;
+        line-height: 96px;
+      }
+    }
+  }
+  .loginmain {
+    width: 100%;
+    height: 540px;
+    background: url('../assets/banner.jpg') no-repeat center/1920px 540px;
+    align-items: center;
+    display: flex;
+    .mainbox {
+      width: 1200px;
+      height: 220px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      color: white;
+      }
+      .login-r {
+        .loginbox {
+          background: white;
+          width: 380px;
+          height: 220px;
+          padding: 15px 30px;
+          border-radius: 5px;
+          margin-right: 20px;
+          padding-top: 20px;
+          div{
+            width: 100%;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            height:34px;
+            line-height: 34px;
+            display:flex;
+            align-items: center;
+            justify-content: flex-end;
+          
+            input{
+                height: 34px;
+                line-height: 34px;
+                justify-content:flex-start;
+            }
+            label{
+              width: 150px;
+              color: red;
+              font-size: 10px;
+              height: 34px;
+              line-height: 34px;
+            }
+            img{
+                width: 100%;
+                height: 100%;
+            }
+          }
+          #index_login_btn{
+              display: block;
+              height: 100%;
+              line-height: 34px;
+              align-items: center;
+              display: flex;
+              justify-content: center;
+          }
+        }
+      }
+    }
+  }
+  .index{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+  }
+

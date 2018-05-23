@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.pagePwdpaychange nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  width: 90%;
+  z-index: 2000;
+}
+
+.pagePwdpaychange nav .lnav {
+  font-size: 15px;
+  width: 500px;
+  text-align: left;
+}
+
+.pagePwdpaychange .resetpass form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/*# sourceMappingURL=pwdpay.css.map */
